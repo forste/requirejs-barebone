@@ -1,1 +1,11 @@
 a repository to test out some requirejs
+
+run
+
+./node_modules/requirejs/bin/r.js -o build-production.js
+
+to generate the main.min.js file required in index.html
+
+then open index.html in your browser
+
+there should be two print statements 'loaded' and 'main loaded' in your console
