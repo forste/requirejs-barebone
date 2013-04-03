@@ -6,7 +6,12 @@
 		<meta http-equiv="Content-Language" content="nl" />
 		<title>Hi</title>
 
-        <script src="main.min.js" type="text/javascript"></script>
+		<script src="lib/require/require.js" type="text/javascript"></script>
+        <script type="text/javascript">
+			require(['myApp'], function() {
+			  require(['main'], function() {});
+			});
+		</script>
 	</head>
 	<body id="app">
 	</body>
